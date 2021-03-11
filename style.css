@@ -1,0 +1,120 @@
+.banner{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.banner1{
+  margin-top:50px;
+  left:0;
+  position:absolute;
+  width:100%;
+  background-color: green;
+}
+
+h1{
+  text-align: center;
+  font-weight:bold;
+}
+
+ul{
+
+}
+
+nav{
+}
+
+nav ul{
+  list-style: none;
+  text-align:center;
+}
+
+nav li{
+  display:inline-block;
+  font-weight: bold;
+  padding-right:25px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "lewo srodek prawo";
+}
+.lewo { grid-area: lewo; }
+.srodek { grid-area: srodek; }
+.prawo { grid-area: prawo; }
+h2{
+  padding-top:150px;
+  text-align:center;
+}
+nav a:hover{
+  color: white;
+  transition: color 250ms;
+}
+
+.lewo p{
+  text-align:center;
+  font-weight:bold;
+}
+.srodek p{
+  text-align:center;
+  font-weight:bold;
+}
+.prawo p{
+  text-align:center;
+  font-weight:bold;
+}
+.lewo1 p{
+  text-align:center;
+  font-weight:bold;
+}
+.prawo1 p{
+  text-align:center;
+  font-weight:bold;
+}
+.j:hover{
+  border: 3px solid gray;
+  border-radius: 5px
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+td {
+  width: 25%;
+  border: solid 1px #454545;
+  background-color:#c4c4c4;
+  border-radius:2px;
+  text-align:center;
+}
+.t {
+  width: 25%;
+  border: solid 1px #454545;
+  background-color:#6e6e6e;
+  border-radius:2px;
+  text-align:center;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "lewo1 prawo1";
+}
+.lewo1 { grid-area: lewo1; }
+.prawo1 { grid-area: prawo1; }
+
+.zdjecie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
